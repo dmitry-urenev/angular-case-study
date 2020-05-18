@@ -6,8 +6,38 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { Page1Component } from './task-2/page.component';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import {
+  MatCommonModule,
+  MatOptionModule,
+  MatRippleModule
+} from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
+export const materialModules = [
+  MatButtonModule,
+  MatCheckboxModule,
+  MatCommonModule,
+  MatDatepickerModule,
+  MatDialogModule,
+  MatIconModule,
+  MatInputModule,
+  MatOptionModule,
+  MatRadioModule,
+  MatRippleModule,
+  MatSelectModule,
+  MatSlideToggleModule  
+];
+
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, ...materialModules ],
   declarations: [ AppComponent, HelloComponent, Page1Component ],
   bootstrap:    [ AppComponent ]
 })

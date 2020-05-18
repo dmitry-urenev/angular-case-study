@@ -1,6 +1,6 @@
 import { Component, Inject } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
-import { filter, map, take, takeUntil, withLatestFrom } from 'rxjs/operators';
+import { FormBuilder } from '@angular/forms';
+import { map, take  } from 'rxjs/operators';
 import { Store, select } from '@ngrx/store';
 import { AppState, PrimaryPaymentMethod } from './interfaces';
 import { getIsPaymentServiceEnabled, getPaymentTerminals } from './selectors';
