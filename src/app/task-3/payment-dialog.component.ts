@@ -5,7 +5,7 @@ import { Store, select } from '@ngrx/store';
 import { AppState, PrimaryPaymentMethod } from './interfaces';
 import { getIsPaymentServiceEnabled, getPaymentTerminals } from './selectors';
 
-// Task 1
+// Task 3
 // 
 // You see some payment dialog, which checks PaymentServices config in the store 
 // (if payment service is enables or not and if any payment terminal exists) 
