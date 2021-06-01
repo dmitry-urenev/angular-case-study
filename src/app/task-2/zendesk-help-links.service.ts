@@ -42,7 +42,7 @@ export const helpLinks: HelpLinksDictionary = {
 
 @Injectable()
 export class ZendeskHelpLinksService {
-  private readonly normalizedLocale: string;
+  private normalizedLocale: string;
 
   constructor(@Inject(LOCALE_ID) localeId: string) {
     this.normalizedLocale = localeId.toLocaleLowerCase().substr(0, languageCodeLength);

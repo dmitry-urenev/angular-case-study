@@ -1,0 +1,29 @@
+.container {
+    font-family: sans-serif !important;
+    padding: 0px 15px 0;
+    display: block;
+    border: 1px solid #c7c4c4;
+    border-radius: 3px;
+}
+
+.task-guidelines {
+    font-family: sans-serif;
+
+    ul {
+        margin: 0;
+        
+        li {
+            list-style: none;
+            line-height: 2;
+        }
+    }
+}
+
+.action-btns {
+    padding: 18px 0;
+    text-align: right;
+
+    button {
+        margin: 0 10px;
+    }
+}

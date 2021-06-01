@@ -56,6 +56,10 @@ export class PaymentDialogComponent {
     this.isPaymentServiceEnabled$.pipe(take(1)).subscribe(u => {
       isPaymentEnabled = u;
     });
+    let terminals = false;
+    this.anyPaymentTerminal$.pipe(take(1)).subscribe(u => {
+      terminals = u;
+    });
 
     if (
       this.data &&
@@ -67,10 +71,6 @@ export class PaymentDialogComponent {
       return 'Reuse';
     }
 
-    let terminals = false;
-    this.anyPaymentTerminal$.pipe(take(1)).subscribe(u => {
-      terminals = u;
-    });
 
     if (terminals) {
       this.isPrimaryMethodVisible = true;

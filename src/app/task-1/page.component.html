@@ -1,30 +1,56 @@
-<pre>
-You see some weird html block, which stands for some setting in the admin UI. 
-    
-Your task is:
-  - Understand what types of information are in front of you. 
-  - Refactor this html code to show the semantic of the different blocks.  
-  - Make this html nice and good looking using CSS-magic
-</pre>
+<container class="container">
+    <section>
+        <pre class="task-guidelines">
+            You see some weird html block, which stands for some setting in the admin UI. 
 
-<span>Template property</span>
-<span>
-    <ul class="information">
-        <li>
-            Template properties let you create new properties with the same settings,
-            inventory and rate plan structure.
-        </li>
-    </ul>
-    <div>
-        Select this if you want the property to be used as a template for creating
-        other properties.
-    </div>
-    <p class="information">Learn more in the <a href="https://en.wikipedia.org/wiki/Molecular_cloning">cloning template property guide</a>.</p>
-    <mat-slide-toggle>
-        Set property as a template
-    </mat-slide-toggle>
-</span>
-<span>
-    <button mat-raised-button color="accent">Save</button>
-    <button mat-button>Cancel</button>
-</span>
+            <div>
+                <p>
+                    Your task is:
+                </p> 
+                <ul>
+                    <li>
+                        - Understand what types of information are in front of you. 
+                    </li>
+                    <li>
+                        - Refactor this html code to show the semantic of the different blocks.  
+                    </li>
+                    <li>
+                        - Make this html nice and good looking using CSS-magic
+                    </li>
+                </ul>  
+            </div>
+        </pre>
+    </section>
+    
+    <section>
+        <h3>Template property</h3>
+        <div>
+            <ul class="information">
+                <li>
+                    Template properties let you create new properties with the same settings,
+                    inventory and rate plan structure.
+                </li>
+            </ul>
+            <p>
+                Select this if you want the property to be used as a template for creating
+                other properties.
+            </p>
+            <p class="information">Learn more in the 
+                <a href="https://en.wikipedia.org/wiki/Molecular_cloning">
+                    cloning template property guide
+                </a>.
+            </p>
+            <div>
+                <mat-slide-toggle>
+                    Set property as a template
+                </mat-slide-toggle>
+            </div>
+        </div>
+    </section>
+
+    <section class="action-btns">
+        <button mat-raised-button color="accent">Save</button>
+        <button mat-raised-button color="default">Cancel</button>
+    </section>
+
+</container>
