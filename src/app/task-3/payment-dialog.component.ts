@@ -18,7 +18,8 @@ import { getIsPaymentServiceEnabled, getPaymentTerminals } from './selectors';
 //   - Refactor this function (or/and maybe the whole component ;) to implement it properly.
 
 @Component({  
-  selector: 'payment-dialog'
+  selector: 'payment-dialog',
+  template:''
 })
 export class PaymentDialogComponent {
   constructor(

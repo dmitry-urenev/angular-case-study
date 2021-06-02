@@ -20,6 +20,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatCardModule } from '@angular/material/card'
 
 export const materialModules = [
   MatButtonModule,
@@ -33,7 +34,8 @@ export const materialModules = [
   MatRadioModule,
   MatRippleModule,
   MatSelectModule,
-  MatSlideToggleModule  
+  MatSlideToggleModule,
+  MatCardModule
 ];
 
 @NgModule({
