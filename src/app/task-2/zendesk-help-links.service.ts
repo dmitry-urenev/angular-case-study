@@ -23,16 +23,16 @@ declare type HelpLinksDictionary = Record<HelpTopicName, HelpLinksDictionaryValu
 
 export const helpLinks: HelpLinksDictionary = {
   booking: {
-    en: 'https://apaleo.zendesk.com/hc/de/articles/360021444512',
-    _default: 'https://apaleo.zendesk.com/hc/en-us/articles/360021444512'
+    de: 'https://apaleo.zendesk.com/hc/de/articles/360021444512',
+    en: 'https://apaleo.zendesk.com/hc/en-us/articles/360021444512'
   },
   group_booking: {
-    en: 'https://apaleo.zendesk.com/hc/de/articles/360021738011',
-    _default: 'https://apaleo.zendesk.com/hc/en-us/articles/360021738011'
+    de: 'https://apaleo.zendesk.com/hc/de/articles/360021738011',
+    en: 'https://apaleo.zendesk.com/hc/en-us/articles/360021738011'
   },
   receiptNumber: {
-    en: 'https://apaleo.zendesk.com/hc/de/articles/360000513352',
-    _default: 'https://apaleo.zendesk.com/hc/en-us/articles/360000513352'
+    de: 'https://apaleo.zendesk.com/hc/de/articles/360000513352',
+    en: 'https://apaleo.zendesk.com/hc/en-us/articles/360000513352'
   },
   userRolePermissions: {
     _default:
